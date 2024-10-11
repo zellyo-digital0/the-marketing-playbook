@@ -1,0 +1,272 @@
+@media (max-width: 1199px) {
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .hero_book img {
+    width: 100%;
+    top: 45px;
+  }
+
+  .info_box {
+    padding: 30px;
+    min-height: 385px;
+  }
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .pb-5 {
+    padding-bottom: 25px !important;
+  }
+
+  .mt-5 {
+    margin-top: 25px !important;
+  }
+
+  .hero {
+    position: relative;
+  }
+
+  .hero_book img {
+    position: relative;
+    width: 100%;
+  }
+
+  .hero_content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .benchmark {
+    justify-content: center;
+  }
+
+  .info_box {
+    padding: 30px;
+  }
+
+  .brand_img img {
+    width: 100%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .cp60 {
+    padding: 70px 15px;
+  }
+
+  .pb-5 {
+    padding-bottom: 25px !important;
+  }
+
+  .mt-5 {
+    margin-top: 25px !important;
+  }
+
+  .wd {
+    width: auto;
+  }
+
+  .hero .row {
+    min-height: 60vh;
+  }
+
+  .hero_content {
+    width: auto;
+    text-align: center;
+  }
+
+  .benchmark {
+    justify-content: center;
+  }
+
+  .benchmark img {
+    width: 30%;
+  }
+
+  .hero_book img {
+    width: 90%;
+    margin: auto;
+    margin-top: -35px;
+  }
+
+  .why {
+    padding-top: 305px;
+  }
+
+  .info_img {
+    text-align: center;
+  }
+
+  .info_img img {
+    width: 70%;
+  }
+
+  .info_box {
+    padding: 25px;
+    margin-top: 30px;
+    min-height: auto;
+  }
+
+  .brand_img {
+    margin-top: 30px;
+  }
+
+  .traders {
+    padding: 25px;
+  }
+
+  .overview .info_box {
+    margin-top: 10px;
+  }
+
+  .accordion-header button {
+    line-height: 33px;
+  }
+
+  .testimonials-userImg::before,
+  .testimonials-userImg::after {
+    width: 20%;
+  }
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .cp60 {
+    padding: 60px 15px;
+  }
+
+  .why {
+    padding-top: 305px;
+  }
+
+  .testimonials-userImg::before,
+  .testimonials-userImg::after {
+    display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .cp60 {
+    padding: 50px 15px;
+  }
+
+  .wd {
+    width: auto;
+  }
+
+  .benchmark img {
+    width: 50%;
+  }
+
+  .hero_book img {
+    margin: 0;
+    width: 100%;
+  }
+
+  .why {
+    padding-top: 280px;
+  }
+
+  .review-img img {
+    margin: auto;
+  }
+
+  .slick-slide img {
+    transform: scale(1) !important;
+    min-height: 527px;
+  }
+
+  .slick-current {
+    transform: scale(1) !important;
+  }
+
+  .slick-center {
+    transform: scale(1) !important;
+  }
+
+  .slick-active {
+    transform: scale(1) !important;
+  }
+
+  .arrow {
+    width: 100%;
+    position: static;
+  }
+  .arrow button img {
+    max-width: 50px;
+  }
+  .slider-for {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .slick-slide img {
+    min-height: 450px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 375px) {
+  .why {
+    padding-top: 200px;
+  }
+  .slick-slide img {
+    min-height: 300px;
+    object-fit: cover;
+  }
+}
